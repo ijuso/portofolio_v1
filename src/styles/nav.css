@@ -1,3 +1,24 @@
-.navList{border:solid 1px black;}
-.listItem{border:solid 1px green;}
-.listItemText{border:solid 1px red;}
+.navList{
+    
+}
+.listItem{
+    display: inline;
+
+}
+.listItemText{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.listItemText:hover {
+    background-color: #111;
+}
+
+.navBarStyle {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}

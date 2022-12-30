@@ -2,7 +2,7 @@
 
 export default function Navbar() {
     return (
-        <div>
+        <div className="navBarStyle">
         <ul className="navList">  
             <li className="listItem"><a className="listItemText" href="#About">Home</a></li>  
             <li className="listItem"><a className="listItemText" href="#Contact">About</a></li>  
