@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family:'Open Sans', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -12,7 +12,10 @@ code {
     monospace;
 }
 
-.main-style {
-  color: gray; 
-  background-color: rgb(65, 65, 65);
+.main-style { 
+  background-color: rgb(1,32,43,255);
+  overflow: auto;
+  /*vaiha tekstuuri*/
+  background-image: url("/src/img/txtr.png"); 
+  background-attachment: fixed;
 }

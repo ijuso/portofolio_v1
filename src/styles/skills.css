@@ -1,0 +1,35 @@
+#skills {
+    display: flex;
+    justify-content: center;
+}
+
+#skills-container {
+    display: flex;
+    width: 1200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skillCard {
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 350px;
+    width: 275px;
+    margin: 0 auto 3.5rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+
+
+.skillCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  #skills-container h2 {
+    color: white;
+    display: inline;
+    width: 100%;
+    text-align: center;
+  }

@@ -1,24 +1,29 @@
-.navList{
-    
+.topnav {
+    background-color: rgba(1,32,43,255);
+    opacity: 0.9;
+    margin: 0;
+    padding: 0.6rem;
+    width: 100%;
+    overflow: hidden;  
+    position: fixed;
+    top: 0;
 }
-.listItem{
-    display: inline;
 
-}
-.listItemText{
-    color: white;
+.topnav a.split {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: bold;
 }
 
-.listItemText:hover {
-    background-color: #111;
+.topnav a.split:hover {
+    color: rgb(189, 192, 5);
 }
 
-.navBarStyle {
-    background-color: #333;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.navList{
+    margin-right: 3.5rem;
 }
